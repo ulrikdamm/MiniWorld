@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF82FA7D14CD712E0007F7EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA7C14CD712E0007F7EC /* UIKit.framework */; };
+		FF82FA7F14CD712E0007F7EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA7E14CD712E0007F7EC /* Foundation.framework */; };
+		FF82FA8114CD712E0007F7EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA8014CD712E0007F7EC /* CoreGraphics.framework */; };
+		FF82FA8714CD712E0007F7EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF82FA8514CD712E0007F7EC /* InfoPlist.strings */; };
+		FF82FA8914CD712E0007F7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FA8814CD712E0007F7EC /* main.m */; };
+		FF82FA8D14CD712E0007F7EC /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FA8C14CD712E0007F7EC /* MWAppDelegate.m */; };
+		FF82FA9014CD712E0007F7EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF82FA8E14CD712E0007F7EC /* MainStoryboard.storyboard */; };
+		FF82FA9314CD712E0007F7EC /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FA9214CD712E0007F7EC /* MWViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF82FA7814CD712E0007F7EC /* MiniWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF82FA7C14CD712E0007F7EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF82FA7E14CD712E0007F7EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF82FA8014CD712E0007F7EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF82FA8414CD712E0007F7EC /* MiniWorld-Info.plist */ = {isa = PBXFileReference; path = "MiniWorld-Info.plist"; sourceTree = "<group>"; };
+		FF82FA8614CD712E0007F7EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF82FA8814CD712E0007F7EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF82FA8A14CD712E0007F7EC /* MiniWorld-Prefix.pch */ = {isa = PBXFileReference; path = "MiniWorld-Prefix.pch"; sourceTree = "<group>"; };
+		FF82FA8B14CD712E0007F7EC /* MWAppDelegate.h */ = {isa = PBXFileReference; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		FF82FA8C14CD712E0007F7EC /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		FF82FA8F14CD712E0007F7EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF82FA9114CD712E0007F7EC /* MWViewController.h */ = {isa = PBXFileReference; path = MWViewController.h; sourceTree = "<group>"; };
+		FF82FA9214CD712E0007F7EC /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF82FA7514CD712E0007F7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF82FA7D14CD712E0007F7EC /* UIKit.framework in Frameworks */,
+				FF82FA7F14CD712E0007F7EC /* Foundation.framework in Frameworks */,
+				FF82FA8114CD712E0007F7EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF82FA6D14CD712E0007F7EC = {
+			isa = PBXGroup;
+			children = (
+				FF82FA8214CD712E0007F7EC /* MiniWorld */,
+				FF82FA7B14CD712E0007F7EC /* Frameworks */,
+				FF82FA7914CD712E0007F7EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF82FA7914CD712E0007F7EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF82FA7814CD712E0007F7EC /* MiniWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF82FA7B14CD712E0007F7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF82FA7C14CD712E0007F7EC /* UIKit.framework */,
+				FF82FA7E14CD712E0007F7EC /* Foundation.framework */,
+				FF82FA8014CD712E0007F7EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF82FA8214CD712E0007F7EC /* MiniWorld */ = {
+			isa = PBXGroup;
+			children = (
+				FF82FA8B14CD712E0007F7EC /* MWAppDelegate.h */,
+				FF82FA8C14CD712E0007F7EC /* MWAppDelegate.m */,
+				FF82FA8E14CD712E0007F7EC /* MainStoryboard.storyboard */,
+				FF82FA9114CD712E0007F7EC /* MWViewController.h */,
+				FF82FA9214CD712E0007F7EC /* MWViewController.m */,
+				FF82FA8314CD712E0007F7EC /* Supporting Files */,
+			);
+			path = MiniWorld;
+			sourceTree = "<group>";
+		};
+		FF82FA8314CD712E0007F7EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF82FA8414CD712E0007F7EC /* MiniWorld-Info.plist */,
+				FF82FA8514CD712E0007F7EC /* InfoPlist.strings */,
+				FF82FA8814CD712E0007F7EC /* main.m */,
+				FF82FA8A14CD712E0007F7EC /* MiniWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF82FA7714CD712E0007F7EC /* MiniWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF82FA9614CD712E0007F7EC /* Build configuration list for PBXNativeTarget "MiniWorld" */;
+			buildPhases = (
+				FF82FA7414CD712E0007F7EC /* Sources */,
+				FF82FA7514CD712E0007F7EC /* Frameworks */,
+				FF82FA7614CD712E0007F7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniWorld;
+			productName = MiniWorld;
+			productReference = FF82FA7814CD712E0007F7EC /* MiniWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF82FA6F14CD712E0007F7EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Gereen.dk;
+			};
+			buildConfigurationList = FF82FA7214CD712E0007F7EC /* Build configuration list for PBXProject "MiniWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF82FA6D14CD712E0007F7EC;
+			productRefGroup = FF82FA7914CD712E0007F7EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF82FA7714CD712E0007F7EC /* MiniWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF82FA7614CD712E0007F7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF82FA8714CD712E0007F7EC /* InfoPlist.strings in Resources */,
+				FF82FA9014CD712E0007F7EC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF82FA7414CD712E0007F7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF82FA8914CD712E0007F7EC /* main.m in Sources */,
+				FF82FA8D14CD712E0007F7EC /* MWAppDelegate.m in Sources */,
+				FF82FA9314CD712E0007F7EC /* MWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF82FA8514CD712E0007F7EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF82FA8614CD712E0007F7EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF82FA8E14CD712E0007F7EC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF82FA8F14CD712E0007F7EC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF82FA9414CD712E0007F7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FF82FA9514CD712E0007F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF82FA9714CD712E0007F7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniWorld/MiniWorld-Prefix.pch";
+				INFOPLIST_FILE = "MiniWorld/MiniWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF82FA9814CD712E0007F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniWorld/MiniWorld-Prefix.pch";
+				INFOPLIST_FILE = "MiniWorld/MiniWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF82FA7214CD712E0007F7EC /* Build configuration list for PBXProject "MiniWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF82FA9414CD712E0007F7EC /* Debug */,
+				FF82FA9514CD712E0007F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF82FA9614CD712E0007F7EC /* Build configuration list for PBXNativeTarget "MiniWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF82FA9714CD712E0007F7EC /* Debug */,
+				FF82FA9814CD712E0007F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF82FA6F14CD712E0007F7EC /* Project object */;
+}
