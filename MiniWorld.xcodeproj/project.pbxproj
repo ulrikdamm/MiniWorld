@@ -7,30 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF025EF314CDA2F200DC48BB /* MWMap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF025EF214CDA2F200DC48BB /* MWMap.m */; };
+		FF025EF614CDA31300DC48BB /* MWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF025EF514CDA31300DC48BB /* MWObject.m */; };
+		FF2BF98F14D0DD1D00036CDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2BF98E14D0DD1D00036CDF /* Security.framework */; };
+		FF2BF99214D0DD8B00036CDF /* ApplicationXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2BF99114D0DD8B00036CDF /* ApplicationXib.xib */; };
+		FF651BFC14CDDBA100EE6A6A /* MWTextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FF651BFB14CDDBA100EE6A6A /* MWTextBox.m */; };
+		FF67679414CEE29B003A46E2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF67679314CEE29B003A46E2 /* AudioToolbox.framework */; };
+		FF67679814CEE7A8003A46E2 /* item.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF67679714CEE754003A46E2 /* item.caf */; };
+		FF67679A14CF2C0B003A46E2 /* attack.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF67679914CF2C07003A46E2 /* attack.caf */; };
+		FF67679C14CF32A9003A46E2 /* fail.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF67679B14CF32A4003A46E2 /* fail.caf */; };
+		FF67679E14CF3332003A46E2 /* win.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF67679D14CF332F003A46E2 /* win.caf */; };
+		FF6767A214CF4B31003A46E2 /* potion.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF6767A114CF4B2E003A46E2 /* potion.caf */; };
+		FF6767A614CF596F003A46E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6767A514CF596E003A46E2 /* AVFoundation.framework */; };
+		FF6767B714CF65BC003A46E2 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6767B314CF65BB003A46E2 /* up.png */; };
+		FF6767B814CF65BC003A46E2 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6767B414CF65BB003A46E2 /* right.png */; };
+		FF6767B914CF65BC003A46E2 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6767B514CF65BB003A46E2 /* left.png */; };
+		FF6767BA14CF65BC003A46E2 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6767B614CF65BB003A46E2 /* down.png */; };
+		FF6767BD14CF675A003A46E2 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6767BB14CF6759003A46E2 /* a.png */; };
+		FF6767BE14CF675A003A46E2 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6767BC14CF675A003A46E2 /* b.png */; };
+		FF6767C014CF68E1003A46E2 /* select.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF6767BF14CF67E7003A46E2 /* select.caf */; };
+		FF6767C514D01735003A46E2 /* world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6767C314D01734003A46E2 /* world.mp3 */; };
+		FF6767C614D01735003A46E2 /* battle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6767C414D01734003A46E2 /* battle.mp3 */; };
 		FF82FA7D14CD712E0007F7EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA7C14CD712E0007F7EC /* UIKit.framework */; };
 		FF82FA7F14CD712E0007F7EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA7E14CD712E0007F7EC /* Foundation.framework */; };
 		FF82FA8114CD712E0007F7EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA8014CD712E0007F7EC /* CoreGraphics.framework */; };
 		FF82FA8714CD712E0007F7EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF82FA8514CD712E0007F7EC /* InfoPlist.strings */; };
 		FF82FA8914CD712E0007F7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FA8814CD712E0007F7EC /* main.m */; };
 		FF82FA8D14CD712E0007F7EC /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FA8C14CD712E0007F7EC /* MWAppDelegate.m */; };
-		FF82FA9014CD712E0007F7EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF82FA8E14CD712E0007F7EC /* MainStoryboard.storyboard */; };
 		FF82FA9314CD712E0007F7EC /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FA9214CD712E0007F7EC /* MWViewController.m */; };
+		FF82FA9A14CD71520007F7EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA9914CD71520007F7EC /* QuartzCore.framework */; };
+		FF82FA9C14CD71570007F7EC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF82FA9B14CD71570007F7EC /* OpenGLES.framework */; };
+		FF82FAAF14CD71B70007F7EC /* SKView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FAA314CD71B70007F7EC /* SKView.m */; };
+		FF82FAB014CD71B70007F7EC /* vertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = FF82FAA414CD71B70007F7EC /* vertexShader.glsl */; };
+		FF82FAB114CD71B70007F7EC /* fragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = FF82FAA514CD71B70007F7EC /* fragmentShader.glsl */; };
+		FF82FAB214CD71B70007F7EC /* SKShader.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FAA714CD71B70007F7EC /* SKShader.m */; };
+		FF82FAB314CD71B70007F7EC /* SKMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = FF82FAA914CD71B70007F7EC /* SKMatrix.c */; };
+		FF82FAB414CD71B70007F7EC /* SKTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FAAB14CD71B70007F7EC /* SKTexture.m */; };
+		FF82FAB514CD71B70007F7EC /* SKSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FAAD14CD71B70007F7EC /* SKSprite.m */; };
+		FF82FAB814CD74CB0007F7EC /* textureMap.png in Resources */ = {isa = PBXBuildFile; fileRef = FF82FAB714CD74CB0007F7EC /* textureMap.png */; };
+		FF82FABB14CD793A0007F7EC /* SKMap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FABA14CD793A0007F7EC /* SKMap.m */; };
+		FF82FAC014CD92550007F7EC /* MWCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF82FABF14CD92540007F7EC /* MWCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF025EF114CDA2F200DC48BB /* MWMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMap.h; sourceTree = "<group>"; };
+		FF025EF214CDA2F200DC48BB /* MWMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMap.m; sourceTree = "<group>"; };
+		FF025EF414CDA31300DC48BB /* MWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWObject.h; sourceTree = "<group>"; };
+		FF025EF514CDA31300DC48BB /* MWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWObject.m; sourceTree = "<group>"; };
+		FF2BF98E14D0DD1D00036CDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF2BF99114D0DD8B00036CDF /* ApplicationXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationXib.xib; sourceTree = "<group>"; };
+		FF651BFA14CDDBA100EE6A6A /* MWTextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTextBox.h; sourceTree = "<group>"; };
+		FF651BFB14CDDBA100EE6A6A /* MWTextBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTextBox.m; sourceTree = "<group>"; };
+		FF67679014CED38E003A46E2 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		FF67679314CEE29B003A46E2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FF67679714CEE754003A46E2 /* item.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = item.caf; sourceTree = "<group>"; };
+		FF67679914CF2C07003A46E2 /* attack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = attack.caf; sourceTree = "<group>"; };
+		FF67679B14CF32A4003A46E2 /* fail.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fail.caf; sourceTree = "<group>"; };
+		FF67679D14CF332F003A46E2 /* win.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.caf; sourceTree = "<group>"; };
+		FF6767A114CF4B2E003A46E2 /* potion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = potion.caf; sourceTree = "<group>"; };
+		FF6767A514CF596E003A46E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF6767B314CF65BB003A46E2 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		FF6767B414CF65BB003A46E2 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		FF6767B514CF65BB003A46E2 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		FF6767B614CF65BB003A46E2 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		FF6767BB14CF6759003A46E2 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		FF6767BC14CF675A003A46E2 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		FF6767BF14CF67E7003A46E2 /* select.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = select.caf; sourceTree = "<group>"; };
+		FF6767C314D01734003A46E2 /* world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = world.mp3; sourceTree = "<group>"; };
+		FF6767C414D01734003A46E2 /* battle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battle.mp3; sourceTree = "<group>"; };
 		FF82FA7814CD712E0007F7EC /* MiniWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF82FA7C14CD712E0007F7EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF82FA7E14CD712E0007F7EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF82FA8014CD712E0007F7EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FF82FA8414CD712E0007F7EC /* MiniWorld-Info.plist */ = {isa = PBXFileReference; path = "MiniWorld-Info.plist"; sourceTree = "<group>"; };
+		FF82FA8414CD712E0007F7EC /* MiniWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniWorld-Info.plist"; sourceTree = "<group>"; };
 		FF82FA8614CD712E0007F7EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF82FA8814CD712E0007F7EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF82FA8A14CD712E0007F7EC /* MiniWorld-Prefix.pch */ = {isa = PBXFileReference; path = "MiniWorld-Prefix.pch"; sourceTree = "<group>"; };
-		FF82FA8B14CD712E0007F7EC /* MWAppDelegate.h */ = {isa = PBXFileReference; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		FF82FA8A14CD712E0007F7EC /* MiniWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniWorld-Prefix.pch"; sourceTree = "<group>"; };
+		FF82FA8B14CD712E0007F7EC /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
 		FF82FA8C14CD712E0007F7EC /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
-		FF82FA8F14CD712E0007F7EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FF82FA9114CD712E0007F7EC /* MWViewController.h */ = {isa = PBXFileReference; path = MWViewController.h; sourceTree = "<group>"; };
+		FF82FA9114CD712E0007F7EC /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
 		FF82FA9214CD712E0007F7EC /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		FF82FA9914CD71520007F7EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF82FA9B14CD71570007F7EC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FF82FAA214CD71B70007F7EC /* SKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKView.h; sourceTree = "<group>"; };
+		FF82FAA314CD71B70007F7EC /* SKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKView.m; sourceTree = "<group>"; };
+		FF82FAA414CD71B70007F7EC /* vertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertexShader.glsl; sourceTree = "<group>"; };
+		FF82FAA514CD71B70007F7EC /* fragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentShader.glsl; sourceTree = "<group>"; };
+		FF82FAA614CD71B70007F7EC /* SKShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKShader.h; sourceTree = "<group>"; };
+		FF82FAA714CD71B70007F7EC /* SKShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKShader.m; sourceTree = "<group>"; };
+		FF82FAA814CD71B70007F7EC /* SKMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMatrix.h; sourceTree = "<group>"; };
+		FF82FAA914CD71B70007F7EC /* SKMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKMatrix.c; sourceTree = "<group>"; };
+		FF82FAAA14CD71B70007F7EC /* SKTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTexture.h; sourceTree = "<group>"; };
+		FF82FAAB14CD71B70007F7EC /* SKTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTexture.m; sourceTree = "<group>"; };
+		FF82FAAC14CD71B70007F7EC /* SKSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSprite.h; sourceTree = "<group>"; };
+		FF82FAAD14CD71B70007F7EC /* SKSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSprite.m; sourceTree = "<group>"; };
+		FF82FAAE14CD71B70007F7EC /* SpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKit.h; sourceTree = "<group>"; };
+		FF82FAB714CD74CB0007F7EC /* textureMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textureMap.png; sourceTree = "<group>"; };
+		FF82FAB914CD79390007F7EC /* SKMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMap.h; sourceTree = "<group>"; };
+		FF82FABA14CD793A0007F7EC /* SKMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMap.m; sourceTree = "<group>"; };
+		FF82FABE14CD92540007F7EC /* MWCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCharacter.h; sourceTree = "<group>"; };
+		FF82FABF14CD92540007F7EC /* MWCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +114,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2BF98F14D0DD1D00036CDF /* Security.framework in Frameworks */,
+				FF6767A614CF596F003A46E2 /* AVFoundation.framework in Frameworks */,
+				FF67679414CEE29B003A46E2 /* AudioToolbox.framework in Frameworks */,
+				FF82FA9C14CD71570007F7EC /* OpenGLES.framework in Frameworks */,
+				FF82FA9A14CD71520007F7EC /* QuartzCore.framework in Frameworks */,
 				FF82FA7D14CD712E0007F7EC /* UIKit.framework in Frameworks */,
 				FF82FA7F14CD712E0007F7EC /* Foundation.framework in Frameworks */,
 				FF82FA8114CD712E0007F7EC /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +131,7 @@
 		FF82FA6D14CD712E0007F7EC = {
 			isa = PBXGroup;
 			children = (
+				FF2BF98E14D0DD1D00036CDF /* Security.framework */,
 				FF82FA8214CD712E0007F7EC /* MiniWorld */,
 				FF82FA7B14CD712E0007F7EC /* Frameworks */,
 				FF82FA7914CD712E0007F7EC /* Products */,
@@ -67,6 +149,10 @@
 		FF82FA7B14CD712E0007F7EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF6767A514CF596E003A46E2 /* AVFoundation.framework */,
+				FF67679314CEE29B003A46E2 /* AudioToolbox.framework */,
+				FF82FA9B14CD71570007F7EC /* OpenGLES.framework */,
+				FF82FA9914CD71520007F7EC /* QuartzCore.framework */,
 				FF82FA7C14CD712E0007F7EC /* UIKit.framework */,
 				FF82FA7E14CD712E0007F7EC /* Foundation.framework */,
 				FF82FA8014CD712E0007F7EC /* CoreGraphics.framework */,
@@ -77,12 +163,37 @@
 		FF82FA8214CD712E0007F7EC /* MiniWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FF82FAB714CD74CB0007F7EC /* textureMap.png */,
+				FF82FAB614CD71B80007F7EC /* SpriteKit */,
+				FF82FA8314CD712E0007F7EC /* Supporting Files */,
 				FF82FA8B14CD712E0007F7EC /* MWAppDelegate.h */,
 				FF82FA8C14CD712E0007F7EC /* MWAppDelegate.m */,
-				FF82FA8E14CD712E0007F7EC /* MainStoryboard.storyboard */,
 				FF82FA9114CD712E0007F7EC /* MWViewController.h */,
 				FF82FA9214CD712E0007F7EC /* MWViewController.m */,
-				FF82FA8314CD712E0007F7EC /* Supporting Files */,
+				FF82FABE14CD92540007F7EC /* MWCharacter.h */,
+				FF82FABF14CD92540007F7EC /* MWCharacter.m */,
+				FF025EF114CDA2F200DC48BB /* MWMap.h */,
+				FF025EF214CDA2F200DC48BB /* MWMap.m */,
+				FF025EF414CDA31300DC48BB /* MWObject.h */,
+				FF025EF514CDA31300DC48BB /* MWObject.m */,
+				FF651BFA14CDDBA100EE6A6A /* MWTextBox.h */,
+				FF651BFB14CDDBA100EE6A6A /* MWTextBox.m */,
+				FF67679014CED38E003A46E2 /* global.h */,
+				FF6767BF14CF67E7003A46E2 /* select.caf */,
+				FF67679714CEE754003A46E2 /* item.caf */,
+				FF67679914CF2C07003A46E2 /* attack.caf */,
+				FF67679B14CF32A4003A46E2 /* fail.caf */,
+				FF67679D14CF332F003A46E2 /* win.caf */,
+				FF6767A114CF4B2E003A46E2 /* potion.caf */,
+				FF6767C314D01734003A46E2 /* world.mp3 */,
+				FF6767C414D01734003A46E2 /* battle.mp3 */,
+				FF6767B314CF65BB003A46E2 /* up.png */,
+				FF6767B414CF65BB003A46E2 /* right.png */,
+				FF6767B514CF65BB003A46E2 /* left.png */,
+				FF6767B614CF65BB003A46E2 /* down.png */,
+				FF6767BB14CF6759003A46E2 /* a.png */,
+				FF6767BC14CF675A003A46E2 /* b.png */,
+				FF2BF99114D0DD8B00036CDF /* ApplicationXib.xib */,
 			);
 			path = MiniWorld;
 			sourceTree = "<group>";
@@ -96,6 +207,28 @@
 				FF82FA8A14CD712E0007F7EC /* MiniWorld-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF82FAB614CD71B80007F7EC /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF82FAAE14CD71B70007F7EC /* SpriteKit.h */,
+				FF82FAA214CD71B70007F7EC /* SKView.h */,
+				FF82FAA314CD71B70007F7EC /* SKView.m */,
+				FF82FAA414CD71B70007F7EC /* vertexShader.glsl */,
+				FF82FAA514CD71B70007F7EC /* fragmentShader.glsl */,
+				FF82FAA614CD71B70007F7EC /* SKShader.h */,
+				FF82FAA714CD71B70007F7EC /* SKShader.m */,
+				FF82FAA814CD71B70007F7EC /* SKMatrix.h */,
+				FF82FAA914CD71B70007F7EC /* SKMatrix.c */,
+				FF82FAAA14CD71B70007F7EC /* SKTexture.h */,
+				FF82FAAB14CD71B70007F7EC /* SKTexture.m */,
+				FF82FAAC14CD71B70007F7EC /* SKSprite.h */,
+				FF82FAAD14CD71B70007F7EC /* SKSprite.m */,
+				FF82FAB914CD79390007F7EC /* SKMap.h */,
+				FF82FABA14CD793A0007F7EC /* SKMap.m */,
+			);
+			name = SpriteKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +282,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6767C014CF68E1003A46E2 /* select.caf in Resources */,
 				FF82FA8714CD712E0007F7EC /* InfoPlist.strings in Resources */,
-				FF82FA9014CD712E0007F7EC /* MainStoryboard.storyboard in Resources */,
+				FF82FAB014CD71B70007F7EC /* vertexShader.glsl in Resources */,
+				FF67679C14CF32A9003A46E2 /* fail.caf in Resources */,
+				FF67679E14CF3332003A46E2 /* win.caf in Resources */,
+				FF82FAB114CD71B70007F7EC /* fragmentShader.glsl in Resources */,
+				FF82FAB814CD74CB0007F7EC /* textureMap.png in Resources */,
+				FF67679814CEE7A8003A46E2 /* item.caf in Resources */,
+				FF6767A214CF4B31003A46E2 /* potion.caf in Resources */,
+				FF67679A14CF2C0B003A46E2 /* attack.caf in Resources */,
+				FF6767B714CF65BC003A46E2 /* up.png in Resources */,
+				FF6767B814CF65BC003A46E2 /* right.png in Resources */,
+				FF6767B914CF65BC003A46E2 /* left.png in Resources */,
+				FF6767BA14CF65BC003A46E2 /* down.png in Resources */,
+				FF6767BD14CF675A003A46E2 /* a.png in Resources */,
+				FF6767BE14CF675A003A46E2 /* b.png in Resources */,
+				FF6767C514D01735003A46E2 /* world.mp3 in Resources */,
+				FF6767C614D01735003A46E2 /* battle.mp3 in Resources */,
+				FF2BF99214D0DD8B00036CDF /* ApplicationXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +314,16 @@
 				FF82FA8914CD712E0007F7EC /* main.m in Sources */,
 				FF82FA8D14CD712E0007F7EC /* MWAppDelegate.m in Sources */,
 				FF82FA9314CD712E0007F7EC /* MWViewController.m in Sources */,
+				FF82FAAF14CD71B70007F7EC /* SKView.m in Sources */,
+				FF82FAB214CD71B70007F7EC /* SKShader.m in Sources */,
+				FF82FAB314CD71B70007F7EC /* SKMatrix.c in Sources */,
+				FF82FAB414CD71B70007F7EC /* SKTexture.m in Sources */,
+				FF82FAB514CD71B70007F7EC /* SKSprite.m in Sources */,
+				FF82FABB14CD793A0007F7EC /* SKMap.m in Sources */,
+				FF82FAC014CD92550007F7EC /* MWCharacter.m in Sources */,
+				FF025EF314CDA2F200DC48BB /* MWMap.m in Sources */,
+				FF025EF614CDA31300DC48BB /* MWObject.m in Sources */,
+				FF651BFC14CDDBA100EE6A6A /* MWTextBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +336,6 @@
 				FF82FA8614CD712E0007F7EC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FF82FA8E14CD712E0007F7EC /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF82FA8F14CD712E0007F7EC /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -239,10 +391,14 @@
 		FF82FA9714CD712E0007F7EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ulrik Damm (X45AYMDB46)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniWorld/MiniWorld-Prefix.pch";
 				INFOPLIST_FILE = "MiniWorld/MiniWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81E664AA-341E-4B4E-8CC5-0CB2529339FD";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,10 +406,14 @@
 		FF82FA9814CD712E0007F7EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ulrik Damm (X45AYMDB46)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniWorld/MiniWorld-Prefix.pch";
 				INFOPLIST_FILE = "MiniWorld/MiniWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81E664AA-341E-4B4E-8CC5-0CB2529339FD";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -277,6 +437,7 @@
 				FF82FA9814CD712E0007F7EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
